@@ -100,7 +100,7 @@ Evaluates financial performance:
 ![Alt Text](<screenshots/Resource Utilization Dashboard.png>)
 ![Alt Text](<screenshots/Project Timeline & Delay Analysis.png>)
 ![Alt Text](https://github.com/Lavonia697/Workforce-Performance-and-Resource-Planning-Analysis-Project/blob/main/screenshots/Resource%20Utilisation%20Dashboard.png?raw=true)
-
+![Alt Text](https://github.com/Lavonia697/Workforce-Performance-and-Resource-Planning-Analysis-Project/blob/main/screenshots/Costs%20&%20Efficiency%20Analysis.png?raw=true)
 ---
 
 ## What This Project Demonstrates
