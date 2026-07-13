@@ -23,25 +23,22 @@ Organizations managing complex, concurrent project portfolios frequently suffer 
 
   ---
 
-  ## Data Architecture & Star Schema
-  The underlying data infrastructure consists of four tables mapped into a high-performance **Star Schema** within Power BI to ensure efficient cross_filtering across dynamic timelines.
-  - **Projects:** Dimensional data capturing project attributes, macro-budgets, priorities, and status updates.
-  - **Tasks:** Event-driven data capturing individual task-level schedules, and completion metrics.
-  - **Resources:** Dimensional registry of the workforce, tracking specialised roles, skill levels, and hourly wages.
-  - **Resource Allocation:** The core transaction bridge mapping specific workers to distinct tasks, capturing *Planned vs. Actual Hours worked*.
+## Tools & Technologies Used
+- **Excel:**  Initial data auditing, cleaning, and preprocessing
+ - **MySQL:** Database deployment, relational modeling, and table-to-table constraint verification.
+- **DAX (Data Analysis Expressions):** Engineered custom time-intelligence KPIs, capacity utilisation matrices, and performance metrics.
+- **Power BI Desktop:** Advanced data modelling, complex DAX analytics, and dashboard design.
 
-  ## Tools & Technologies Used
-  - **Excel:**  Initial data auditing, cleaning, and preprocessing
-  - **MySQL:** Database deployment, relational modeling, and table-to-table constraint verification.
-  - **DAX (Data Analysis Expressions):** Engineered custom time-intelligence KPIs, capacity utilisation matrices, and performance metrics.
-  - **Power BI Desktop:** Advanced data modelling, complex DAX analytics, and dashboard design.
+  ---
 
-## Data Model
-**This dataset was structured into four core tables:**
-- Projects - Project details, budget, priority, and status
-- Tasks - Task-level timelines and completion status
-- Resources - Worker roles, skill levels, and hourly rates
-- Resource Allocation - Mapping of workers to tasks with planned vs actual hours
+ ## Data Architecture & Star Schema
+ The underlying data infrastructure consists of four tables mapped into a high-performance **Star Schema** within Power BI to ensure efficient cross_filtering across dynamic timelines.
+- **Projects:** Dimensional data capturing project attributes, macro-budgets, priorities, and status updates.
+- **Tasks:** Event-driven data capturing individual task-level schedules, and completion metrics.
+- **Resources:** Dimensional registry of the workforce, tracking specialised roles, skill levels, and hourly wages.
+- **Resource Allocation:** The core transaction bridge mapping specific workers to distinct tasks, capturing *Planned vs. Actual Hours worked*.
+
+---
 
 **A relational data model was implemented using:**
 - Primary & Foreign Keys in MySQL
@@ -95,7 +92,6 @@ Evaluates financial performance:
 
 ![Alt Text](https://github.com/Lavonia697/Workforce-Performance-and-Resource-Planning-Analysis-Project/blob/main/screenshots/Costs%20&%20Efficiency%20Analysis.png?raw=true)
 
-
 ---
 
 ## Key Insights
@@ -114,9 +110,6 @@ Evaluates financial performance:
  
   ---
 
-
-  ---
-
   ## How to Use
   1. Open the Power BI file
   2. Use slicers to filter by :
@@ -133,6 +126,7 @@ Aspiring Data Analyst with a focus on:
 - Operations Analytics
 - Workforce Optimization
 - Business Intelligence
+  
 *Passionate about turning data into actionable insights that drive decision-making*
 
 ---
