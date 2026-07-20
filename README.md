@@ -1,4 +1,4 @@
-# Workforce-Performance-and-Resource-Planning-Analysis
+# Workforce-Performance-and-Resource-Planning-Analytics
 ## Multi-Project Health | Resource Utilisation | Delay Diagnostics
 ![Alt Text](https://github.com/Lavonia697/Workforce-Performance-and-Resource-Planning-Analysis-Project/blob/main/screenshots/Overview%20Dashboard.png?raw=true)
 
