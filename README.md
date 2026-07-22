@@ -1,4 +1,9 @@
 # Workforce-Performance-and-Resource-Planning-Analytics
+## Construction Operations Impact:
+This project diagnoses a critical portfolio blind spot - where a contractor appears to be under-spending on labor budget, but is actually severely understaffed. The framework maps workforce allocation heatmaps to identify over-utilized crews (operating at 113% capacity), allowing project managers to reallocate non-critical staff to bottleneck tasks before schedule slippage triggers contract penalties.
+
+---
+
 ## Multi-Project Health | Resource Utilisation | Delay Diagnostics
 ![Alt Text](https://github.com/Lavonia697/Workforce-Performance-and-Resource-Planning-Analysis-Project/blob/main/screenshots/Overview%20Dashboard.png?raw=true)
 
